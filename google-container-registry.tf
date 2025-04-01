@@ -3,5 +3,5 @@ provider "google" {
 }
 
 resource "google_container_registry" "registry" {
-    location = "US"
+    location = "us-central1"
 }
